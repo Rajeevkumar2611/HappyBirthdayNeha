@@ -6,8 +6,8 @@ body {
 	/* overflow: hidden; */
 }
 .backg{
-    /* background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0)); 
-    padding: 5vw 0vw 5vw 0;  */
+    /*  background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));  */
+    padding: 5vw 0vw 5vw 0; 
       display: flex;
       justify-content: center;
       align-items: center;
@@ -71,7 +71,8 @@ canvas {
   .box > img {
     width: 100%;
     height: calc(100% - 10vh);
-    object-fit: contain; 
+    object-fit: cover; 
+    object-position: top;
     transition: .5s;
   }
   
