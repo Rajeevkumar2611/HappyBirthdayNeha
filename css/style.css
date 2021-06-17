@@ -19,7 +19,8 @@ body {
 canvas {
 	background-image: radial-gradient(rgb(255, 147, 147), rgb(0, 0, 0));
     /* overflow: hidden; */
-    width: 100% !important;
+    max-width: 100% !important;
+    height: 50vw !important;
 }
 
 #instructions {
@@ -94,7 +95,10 @@ canvas {
     margin-top: 10rem;
     text-align: center;
   }
-  
+  .texts{
+    margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+  }
   .neons {
     font-size: 10vw;
     text-align: center;
@@ -114,4 +118,30 @@ canvas {
       color: gray;
       text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
     }
+  }
+  .invitation{
+    font-size: xx-large;
+    font-family:'Dancing Script', cursive;
+    margin-bottom: 1vw;
+  }
+  .pswd{
+    /* text-align: center; */
+    width: 20%;
+    height: 2vw;
+    border: 2px solid rgb(113, 255, 243);
+    /* outline: 2px solid pink; */
+    margin-left: 35%;
+    border-radius: 5px 0 0 5px;
+  }
+  .btn{
+    width: 10%;
+    font-family:'Dancing Script', cursive;
+    font-size: larger;
+    height: 2.45vw;
+    padding: 0 0 .3vw 0;
+    background-color: pink;
+    margin-top: 2vw;
+    border: 2px solid rgb(113, 255, 243);
+    margin-bottom: 10vw;
+    border-radius: 0 5px 5px 0;
   }
