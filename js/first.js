@@ -9,3 +9,21 @@ if(pasword.value.toLowerCase() == matchText){
 }
 }
 // btn.addEventListener('click',first());
+// window.onload = () =>{
+//     document.getElementById('audi').play();
+// }
+let inpt = document.querySelector('#chk');
+let audi = document.querySelector('#audi');
+inpt.addEventListener('click',()=>{
+    if(inpt.checked){
+        audi.play();
+    }else{
+        audi.pause()
+    }
+    // console.log('clk')
+})
+
+function myFunction(){
+    alert('⚠ Warning! Please watch this alone!');
+    document.getElementById('pro').style.display ='block';
+}
