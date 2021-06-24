@@ -27,3 +27,5 @@ function myFunction(){
     alert('⚠ Warning! Please watch this alone!');
     document.getElementById('pro').style.display ='block';
 }
+window.onload = audi.play();
+// window.onreload
